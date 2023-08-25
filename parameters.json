@@ -1,0 +1,15 @@
+{
+    "resourceGroupName": "DiskEncryptionExperiments-rg",
+    "location": "northeurope",
+    "vnetName": "DiskEncryptionVnet",
+    "vnetAddressPrefix": "10.0.0.0/16",
+    "subnetName": "subnet1",
+    "subnetAddressPrefix": "10.0.0.0/24",
+    "keyVaultName": "DiskEncryptionExp-kv01",
+    "image" : "MicrosoftWindowsServer:WindowsServer:2022-datacenter-smalldisk-g2:latest",
+    "DESEncryptionAtRestWithCustomerKeyName" : "des-EncryptionAtRestWithCustomerKey",
+    "DESConfidentialVmEncryptedWithCustomerKeyName" : "des-ConfidentialVmEncryptedWithCustomerKey",
+    "DESEncryptionAtRestWithPlatformAndCustomerKeysName" : "des-EncryptionAtRestWithPlatformAndCustomerKeys",
+    "BackupVaultName" : "DiskEncryptionExperiments-bv",
+    "AZBUidentityName" : "DiskEncryptionExperiments-azbu-id"
+}

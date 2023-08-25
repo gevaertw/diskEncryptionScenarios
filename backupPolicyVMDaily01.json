@@ -1,0 +1,32 @@
+{
+    "properties": {
+        "policyType": "Scheduled",
+        "schedulePolicy": {
+            "scheduleRunFrequency": "Daily",
+            "scheduleRunDays": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "scheduleRunTimes": [
+                "2022-01-01T00:00:00Z"
+            ]
+        },
+        "backupType": {
+            "type": "Full"
+        },
+        "retentionPolicy": {
+            "retentionPolicyType": "Daily",
+            "dailySchedule": {
+                "retentionDuration": {
+                    "count": 30,
+                    "durationType": "Days"
+                }
+            }
+        }
+    }
+}
